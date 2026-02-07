@@ -8,7 +8,13 @@ body {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+body {
+  font-family: 'Inter', sans-serif;
+}
 
+h1, h2, h3, nav h2 {
+  font-family: 'Poppins', sans-serif;
+}
 body {
   line-height: 1.6;
   color: #333;
@@ -109,8 +115,8 @@ font-family: 'Playfair Display', serif;
 }
 
 .btn:hover {
-  background-color: #473b0a;
-  color: #ffffff;
+  background-color: #ffcc00;
+  color: #1e1e2f;
   transform: translateY(-2px);
 }
 
@@ -376,4 +382,5 @@ footer {
   transform: scale(1.02);
   box-shadow: 0 12px 30px rgba(0,0,0,0.2);
 }
+
 
